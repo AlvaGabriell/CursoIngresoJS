@@ -5,7 +5,10 @@ function mostrar()
 {
 	
 
-	let nombreRecibido = document.getElementById("txtIdNombre").value;
+	let nombreRecibido;
+
+
+	nombreRecibido = document.getElementById("txtIdNombre").value;
 
 
 	alert(nombreRecibido);
@@ -15,7 +18,7 @@ function mostrar()
 	
 	let nombreIngresado;
 
-	nombreIngresado=txtIdNombre.value;                  (Otra forma menos convencional de resolver el mismo problema.)
+	nombreIngresado=txtIdNombre.value;                  (Otra forma de resolver el mismo problema.)
 
 
 	alert(nombreIngresado);
